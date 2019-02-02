@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+    <title>Friendr JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="./static/js/main.js"></script>
+    <!--
+        <link rel="stylesheet" href="./static/css/main.css" />
+    -->
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Designing Mobile Applications</h1>
+            <h3>A group for people who want to create new mobile apps</p>
+        </div><!-- /header -->
+        
+        <div role="main" class="ui-content">
+            <div>
+                <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-star">Interested</a>
+                <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-star">Attending</a>
+            </div>
+            <div id="chat"></div>
+        </div><!-- /content -->
+ 
+        <div data-role="footer">
+            <input type="text" name="text-basic" id="userInput" value="">
+            <a href="#" class="ui-shadow ui-btn ui-corner-all ui-btn-inline ui-icon-plus ui-btn-icon-notext ui-btn-b ui-mini" onclick="addToChat()">icon only button</a>
+            
+        </div><!-- /footer -->
+ 
+    </div><!-- /page -->
+</body>
+</html>
